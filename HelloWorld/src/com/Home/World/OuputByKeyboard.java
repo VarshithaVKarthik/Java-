@@ -18,6 +18,7 @@ public class OuputByKeyboard {
 		System.out.println("After swap");
 		System.out.println("value of A is " +a);
 		System.out.println("value of B is "+b);
+		System.out.println("HI");
 		sc.close();
 
 	}
