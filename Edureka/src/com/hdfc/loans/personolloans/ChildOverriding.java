@@ -2,9 +2,10 @@ package com.hdfc.loans.personolloans;
 
 public class ChildOverriding extends ParentOverrriding
 {	
-	public void care()
+	public strictfp int care()
 	{
 		System.out.println("Child=Hi I am good");
+		return 0;
 	}
 	public void love()
 	{
